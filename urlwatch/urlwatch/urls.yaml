@@ -1,0 +1,4 @@
+filter: html2text,grepi:ignoreThis
+kind: url
+name: Test
+url: https://test.net/version.jsp
