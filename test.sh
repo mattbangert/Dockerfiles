@@ -1,5 +1,5 @@
 #!/bin/bash
-# Author: Matt Bangert <matt.bangert@cirium.com>
+# Author: Matt Bangert <matt.bangert@gmail.com>
 set -e
 set -o pipefail
 # get the dockerfiles changed

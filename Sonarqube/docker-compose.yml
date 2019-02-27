@@ -3,7 +3,7 @@ version: "2"
 services:
   sonarqube:
     build: ./
-    image: sonar:diio-1.0.0
+    image: sonar:1.0.0
     ports:
       - "9000:9000"
       - "9092:9092"

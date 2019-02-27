@@ -1,5 +1,5 @@
 FROM sonarqube:alpine
-LABEL maintainer="matt.bangert@cirium.com"
+LABEL maintainer="matt.bangert@gmail.com"
 
 #Plugin Versions
 ENV SONAR_JAVA_PLUGIN_VERSION 5.9.1.16423
