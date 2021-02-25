@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+
+  runner:
+    image: github-runner:1.0.2
+    environment:
+      RUNNER_NAME: "docker-github-runner-1.0.2"
+      RUNNER_REPOSITORY_URL: ${RUNNER_REPOSITORY_URL}
+      #RUNNER_ORGANIZATION_URL: ${RUNNER_ORGANIZATION_URL}
+      GITHUB_ACCESS_TOKEN: ${GITHUB_ACCESS_TOKEN}
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
