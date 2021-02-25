@@ -1,0 +1,9 @@
+version: "3.9"
+   
+services:
+  db:
+    image: postgres:12.6-alpine
+    env_file:
+      - database.env # configure postgres
+    ports:
+        - 5432:5432
